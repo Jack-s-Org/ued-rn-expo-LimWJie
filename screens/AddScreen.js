@@ -1,12 +1,14 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-console.log("second test")
+console.log("second test");
 
 const AddScreen = () => {
   return (
     <SafeAreaView>
-      <Text>Add</Text>
+      <View>
+        <Text>Add</Text>
+      </View>
     </SafeAreaView>
   );
 };
